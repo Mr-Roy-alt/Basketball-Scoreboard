@@ -22,19 +22,27 @@
   height: 100vh;
 }
 
+@media only screen and (min-width: 425px) {
+  .heading-text {
+    font-size: 4em !important;
+    text-align: center;
+  }
+}
+
 .heading-text {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #9aabd8;
   text-shadow: 3px 3px 15px rgba(255, 0, 0, 0.462);
   font-family: "Kavoon", cursive;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-width: 350px;
+  min-width: 320px;
   width: 70%;
   max-width: 550px;
   height: 400px;
@@ -94,6 +102,10 @@ button {
   padding: 10px 10px 5px 10px;
   margin: 5px 3px;
   cursor: pointer;
+}
+
+.btn {
+  display: flex;
 }
 
 .winner {
