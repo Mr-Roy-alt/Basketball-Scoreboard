@@ -1,4 +1,4 @@
-# co3c8437488a10691ad5e5017
+# Basketball-Scoreboard
 
 Quick start:
 
